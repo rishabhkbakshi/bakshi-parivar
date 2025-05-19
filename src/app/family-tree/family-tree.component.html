@@ -1,0 +1,5 @@
+<div class="family-tree">
+    <ng-container *ngFor="let root of dataSource.data">
+        <app-family-node [member]="root"></app-family-node>
+    </ng-container>
+</div>
