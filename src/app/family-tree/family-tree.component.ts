@@ -217,7 +217,7 @@ const bakshiParivar = {
                   image: 'assets/images/Ghotu.jpg',
                   children: []
                 },
-                { name: 'Arihant Doshi*' }
+                { name: 'Arihant Doshi*', image: 'assets/images/Arihant.jpg' },
               ]
             },
             {
@@ -230,7 +230,7 @@ const bakshiParivar = {
                   spouse: 'Rishabh Kothari',
                   image: 'assets/images/khushbu-nagaur.jpg',
                   children: [
-                    { name: 'Ritvi Kothari' }
+                    { name: 'Ritvi Kothari', image: 'assets/images/khushbu-nagaur1.jpg' }
                   ]
                 },
                 {
@@ -238,8 +238,8 @@ const bakshiParivar = {
                   spouse: 'Arvind Chaudhary',
                   image: 'assets/images/kavita.jpg',
                   children: [
-                    { name: 'Khushan Chaudhary' },
-                    { name: 'Soham Chaudhary' }
+                    { name: 'Khushan Chaudhary', image: 'assets/images/kavita-1.jpg' },
+                    { name: 'Soham Chaudhary', image: 'assets/images/kavita-1.jpg' }
                   ]
                 },
                 {
