@@ -107,7 +107,7 @@ const bakshiParivar = {
                   image: 'assets/images/rinku.jpg',
                   children: [
                     { name: 'Yaashi Chordia', image: 'assets/images/rinku-2.jpg', },
-                    { name: 'Dishi Chordia',  image: 'assets/images/rinku-1.jpg', }
+                    { name: 'Dishi Chordia', image: 'assets/images/rinku-1.jpg', }
                   ]
                 }
               ]
@@ -190,8 +190,8 @@ const bakshiParivar = {
                   spouse: 'Deepak Babel',
                   image: 'assets/images/chandani.jpg',
                   children: [
-                    { name: 'Divit Babel' },
-                    { name: 'Kalp Babel' }
+                    { name: 'Divit Babel', image: 'assets/images/chandani-1.jpg' },
+                    { name: 'Kalp Babel', image: 'assets/images/chandani-2.jpg' }
                   ]
                 },
                 { name: 'Pratik Bakshi*', image: 'assets/images/vivek.jpg' },
