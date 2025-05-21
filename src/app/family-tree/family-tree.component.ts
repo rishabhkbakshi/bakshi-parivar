@@ -118,7 +118,7 @@ const bakshiParivar = {
               image: 'assets/images/suman.jpg',
               children: [
                 {
-                  name: 'Dimple Khabiya*',
+                  name: 'Pratibha Khabiya*',
                   spouse: 'Ajit Khabiya',
                   image: 'assets/images/dimple.jpg',
                   children: [
