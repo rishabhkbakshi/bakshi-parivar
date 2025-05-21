@@ -36,7 +36,7 @@ const bakshiParivar = {
       image: 'assets/images/champalalji.jpg',
       children: [
         {
-          name: 'ManakChandji Bakshi',
+          name: 'ManakChandji Bakshi*',
           spouse: 'Kamla Devi',
           image: 'assets/images/maa-1.jpg',
           children: [
@@ -194,13 +194,13 @@ const bakshiParivar = {
                     { name: 'Kalp Babel', image: 'assets/images/chandani-2.jpg' }
                   ]
                 },
-                { name: 'Pratik Bakshi*', image: 'assets/images/vivek.jpg' },
-                { name: 'Himani Bakshi*', image: 'assets/images/himani.jpg' }
+                { name: 'Pratik Bakshi', image: 'assets/images/vivek.jpg' },
+                { name: 'Himani Bakshi', image: 'assets/images/himani.jpg' }
               ]
             },
             {
               name: 'Saroj Doshi*',
-              spouse: 'Ashok Doshi*',
+              spouse: 'Ashok Doshi',
               image: 'assets/images/Ashokji.jpg',
               children: [
                 {
@@ -217,7 +217,7 @@ const bakshiParivar = {
                   image: 'assets/images/Ghotu.jpg',
                   children: []
                 },
-                { name: 'Arihant Doshi*', image: 'assets/images/Arihant.jpg' },
+                { name: 'Arihant Doshi', image: 'assets/images/Arihant.jpg' },
               ]
             },
             {
@@ -250,7 +250,7 @@ const bakshiParivar = {
                     { name: 'Bhavika Bafna', image: 'assets/images/vaibhav-1.jpg' }
                   ]
                 },
-                { name: 'Harshit Lalwani*', image: 'assets/images/harshit.jpg' }
+                { name: 'Harshit Lalwani', image: 'assets/images/harshit.jpg' }
               ]
             },
             {
@@ -266,7 +266,7 @@ const bakshiParivar = {
                     { name: 'Garvisha Bhansali', image: 'assets/images/nikita-1.jpg' }
                   ]
                 },
-                { name: 'Ankita Nahar*', image: 'assets/images/ankita.jpg' }
+                { name: 'Ankita Nahar', image: 'assets/images/ankita.jpg' }
               ]
             }
           ]
