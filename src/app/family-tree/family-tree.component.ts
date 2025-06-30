@@ -31,18 +31,18 @@ const bakshiParivar = {
   description: 'A family of Bakshis',
   ancestors: [
     {
-      name: 'Champalalji Bakshi',
-      spouse: 'Jethi Bai',
+      name: 'Late Champalalji Bakshi',
+      spouse: 'Late Jethi Bai',
       image: 'assets/images/champalalji.jpg',
       children: [
         {
-          name: 'ManakChandji Bakshi*',
+          name: 'Late ManakChandji Bakshi*',
           spouse: 'Kamla Devi',
           image: 'assets/images/maa-1.jpg',
           children: [
             {
               name: 'Chandrakanta Sethia*',
-              spouse: 'Swami Anand Prem',
+              spouse: 'Late Swami Anand Prem',
               image: 'assets/images/bhuaasa.jpg',
               children: [
                 {
@@ -66,7 +66,7 @@ const bakshiParivar = {
               ]
             },
             {
-              name: 'Lalit Kumar Bakshi*',
+              name: 'Late Lalit Kumar Bakshi*',
               spouse: 'Suman Jain',
               image: 'assets/images/lalit.jpg',
               children: [
@@ -176,8 +176,8 @@ const bakshiParivar = {
           ]
         },
         {
-          name: 'Dhanraj Bakshi*',
-          spouse: 'Pushpa Devi',
+          name: 'Late Dhanraj Bakshi*',
+          spouse: 'Late Pushpa Devi',
           image: 'assets/images/dhanraj.jpg',
           children: [
             {
@@ -272,13 +272,13 @@ const bakshiParivar = {
           ]
         },
         {
-          name: 'Luni Bai*',
-          spouse: 'Megharaj Banthiya',
+          name: 'Late Luni Bai*',
+          spouse: 'Late Megharaj Banthiya',
           children: []
         },
         {
-          name: 'Gulab Bai*',
-          spouse: 'Pratap Chand Pugalia',
+          name: 'Late Gulab Bai*',
+          spouse: 'Late Pratap Chand Pugalia',
           children: []
         }
       ]
