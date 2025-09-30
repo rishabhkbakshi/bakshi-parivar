@@ -1,6 +1,7 @@
 <div class="node-wrapper">
   <div class="node-card">
-    <img *ngIf="member.image" [src]='member.image' alt="Default Avatar" class="node-image" width="150" height="120" />
+    <img [src]="member.image || '/assets/images/default.png'" alt="Default Avatar"
+      class="node-image" width="150" height="120" />
     <div class="node-line"></div>
     <strong>{{ member.name }}</strong>
     <div *ngIf="member.spouse">&amp; {{ member.spouse }}</div>
