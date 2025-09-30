@@ -1,1 +1,33 @@
-<app-family-tree></app-family-tree>
+<p-organizationChart [value]="data" selectionMode="single" class="family-tree" collapsible>
+  <!-- person nodes (leaf) -->
+  <ng-template pTemplate="person" let-node>
+    <div class="person-node">
+      <div class="member-card">
+        <img [src]="node.data?.members?.[0]?.image || 'assets/images/default.jpg'"
+             alt="{{ node.data?.members?.[0]?.name }}" width="150" height="120" />
+        <div class="name">{{ node.data?.members?.[0]?.name }}</div>
+      </div>
+    </div>
+  </ng-template>
+
+  <!-- family nodes -->
+  <ng-template pTemplate="family" let-node>
+    <div class="family-node">
+      <div *ngFor="let member of node.data?.members" class="member-card">
+        <img [src]="member.image || 'assets/images/default.jpg'"
+             alt="{{ member.name }}" width="150" height="120" />
+        <div class="name">{{ member.name }}<span *ngIf="member.spouse"> + {{ member.spouse }}</span></div>
+      </div>
+    </div>
+  </ng-template>
+
+  <!-- fallback -->
+  <ng-template pTemplate="node" let-node>
+    <div class="node-fallback">
+      <div *ngFor="let member of node.data?.members" class="member-card">
+        <img [src]="member.image || 'assets/images/default.jpg'" alt="{{ member.name }}" width="150" height="120" />
+        <div class="name">{{ member.name }}</div>
+      </div>
+    </div>
+  </ng-template>
+</p-organizationChart>

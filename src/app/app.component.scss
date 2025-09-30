@@ -1,0 +1,57 @@
+.family-container {
+    padding: 20px;
+    text-align: center;
+
+    .title {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 600;
+        color: #2c3e50;
+    }
+}
+
+::ng-deep .p-organizationchart {
+    .family-node {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        background: #f9fafb;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+
+        .member {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-width: 80px;
+
+            img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                border: 2px solid #4cafef;
+                object-fit: cover;
+            }
+
+            .name {
+                margin-top: 6px;
+                font-size: 13px;
+                font-weight: 500;
+                color: #333;
+            }
+        }
+    }
+
+    // Lines color
+    .p-organizationchart-line-down {
+        border-color: #4cafef;
+    }
+
+    .p-organizationchart-line-left,
+    .p-organizationchart-line-right,
+    .p-organizationchart-line-top {
+        border-color: #4cafef;
+    }
+}
