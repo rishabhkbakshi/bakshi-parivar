@@ -273,7 +273,7 @@ const bakshiParivar = {
         },
         {
           name: 'Late Luni Bai*',
-          spouse: 'Late Megharaj Banthiya',
+          spouse: 'Late Poonam Chand Banthiya',
           children: []
         },
         {
