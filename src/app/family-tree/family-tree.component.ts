@@ -41,7 +41,7 @@ const bakshiParivar = {
           image: 'assets/images/maa-1.jpg',
           children: [
             {
-              name: 'Chandrakanta Sethia (Molu)*',
+              name: 'Chandrakanta Sethia (मोलू)*',
               spouse: 'Late Swami Anand Prem',
               image: 'assets/images/bhuaasa.jpg',
               children: [
@@ -113,7 +113,7 @@ const bakshiParivar = {
               ]
             },
             {
-              name: 'Suman Sand (Santi)*',
+              name: 'Suman Sand (संती)*',
               spouse: 'Sunil Sand',
               image: 'assets/images/suman.jpg',
               children: [
@@ -176,7 +176,7 @@ const bakshiParivar = {
           ]
         },
         {
-          name: 'Late Dhanraj Bakshi (Dhanji)*',
+          name: 'Late Dhanraj Bakshi (धनजी/काकासा)*',
           spouse: 'Late Pushpa Devi',
           image: 'assets/images/dhanraj.jpg',
           children: [
