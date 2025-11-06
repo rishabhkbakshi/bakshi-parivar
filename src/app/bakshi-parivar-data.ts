@@ -14,7 +14,7 @@ const bakshiParivar = [
                 expanded: true,
                 data: {
                     name: "Late ManakChandji Bakshi*",
-                    spouse: "Kamla Devi",
+                    spouse: "Late Kamla Devi",
                     image: "assets/images/maa-1.jpg"
                 },
                 children: [
@@ -45,7 +45,7 @@ const bakshiParivar = [
                                     {
                                         type: "person",
                                         data: {
-                                            name: "Pulkit Jain",
+                                            name: "Pulkit Jain (Tinku)",
                                             image: "assets/images/tinku.jpg"
                                         }
                                     }
@@ -54,7 +54,7 @@ const bakshiParivar = [
                             {
                                 type: "family",
                                 data: {
-                                    name: "Arvind Prem*",
+                                    name: "Arvind Prem (Bablu)*",
                                     spouse: "Trishla Sethia",
                                     image: "assets/images/babloo.jpg"
                                 },
@@ -132,7 +132,7 @@ const bakshiParivar = [
                             {
                                 type: "family",
                                 data: {
-                                    name: "Priyanka Surana*",
+                                    name: "Priyanka Surana (Tina)*",
                                     spouse: "Nishant Surana",
                                     image: "assets/images/tina.jpg"
                                 },
@@ -156,7 +156,7 @@ const bakshiParivar = [
                             {
                                 type: "family",
                                 data: {
-                                    name: "Prateek Chordia*",
+                                    name: "Prateek Chordia (Rinku)*",
                                     spouse: "Nikita Chordia",
                                     image: "assets/images/rinku.jpg"
                                 },
@@ -190,7 +190,7 @@ const bakshiParivar = [
                             {
                                 type: "family",
                                 data: {
-                                    name: "Pratibha Khabiya*",
+                                    name: "Pratibha Khabiya (Dimple)*",
                                     spouse: "Ajit Khabiya",
                                     image: "assets/images/dimple.jpg"
                                 },
@@ -240,7 +240,7 @@ const bakshiParivar = [
                     {
                         type: "family",
                         data: {
-                            name: "Kusum Kankariya*",
+                            name: "Kusum Kankariya (Pappi)*",
                             spouse: "Pukhraj Kankariya",
                             image: "assets/images/kusum.jpg"
                         },
@@ -248,14 +248,14 @@ const bakshiParivar = [
                             {
                                 type: "person",
                                 data: {
-                                    name: "Virendra Kankariya",
+                                    name: "Virendra Kankariya (Viru)",
                                     image: "assets/images/viru.jpg"
                                 }
                             },
                             {
                                 type: "person",
                                 data: {
-                                    name: "Pawan Kankariya",
+                                    name: "Pawan Kankariya (Charlie)",
                                     image: "assets/images/charli.jpg"
                                 }
                             }
@@ -264,8 +264,8 @@ const bakshiParivar = [
                     {
                         type: "family",
                         data: {
-                            name: "Vandana Jain*",
-                            spouse: "Sachindra Singhvi",
+                            name: "Vandana Jain (Gattu)*",
+                            spouse: "Sachindra Singhvi (Sachin)",
                             image: "assets/images/vandana.jpg"
                         },
                         children: [
@@ -288,7 +288,7 @@ const bakshiParivar = [
                     {
                         type: "family",
                         data: {
-                            name: "Vijay Kumar Bakshi*",
+                            name: "Vijay Kumar Bakshi (Munna)*",
                             spouse: "Nidhi Jain",
                             image: "assets/images/vijay.jpg"
                         },
@@ -312,7 +312,7 @@ const bakshiParivar = [
                     {
                         type: "family",
                         data: {
-                            name: "Jaishri Jain*",
+                            name: "Jaishri Jain (Gudiya)*",
                             spouse: "Sudhir Kumbhat",
                             image: "assets/images/gudiya.jpg"
                         },
@@ -327,7 +327,7 @@ const bakshiParivar = [
                             {
                                 type: "person",
                                 data: {
-                                    name: "Chaitanya Kumbhat Jain",
+                                    name: "Chaitanya Kumbhat Jain (Gungun)",
                                     image: "assets/images/gungun.jpg"
                                 }
                             }
@@ -339,7 +339,7 @@ const bakshiParivar = [
                 type: "family",
                 expanded: true,
                 data: {
-                    name: "Late Dhanraj Bakshi*",
+                    name: "Late Dhanraj Bakshi (Dhanji)*",
                     spouse: "Late Pushpa Devi",
                     image: "assets/images/dhanraj.jpg"
                 },
@@ -347,7 +347,7 @@ const bakshiParivar = [
                     {
                         type: "family",
                         data: {
-                            name: "Buddhi Prakash Bakshi*",
+                            name: "Buddhi Prakash Bakshi (Mannu)*",
                             spouse: "Hansa Bakshi",
                             image: "assets/images/manu.jpg"
                         },
@@ -379,7 +379,7 @@ const bakshiParivar = [
                             {
                                 type: "person",
                                 data: {
-                                    name: "Pratik Bakshi",
+                                    name: "Pratik Bakshi (Vivek)",
                                     image: "assets/images/vivek.jpg",
                                     children: []
                                 }
@@ -440,7 +440,7 @@ const bakshiParivar = [
                     {
                         type: "family",
                         data: {
-                            name: "Sunita Lalwani*",
+                            name: "Sunita Lalwani (Baby)*",
                             spouse: "Kamal Lalwani",
                             image: "assets/images/babybhuaa.jpg"
                         },
@@ -489,7 +489,7 @@ const bakshiParivar = [
                             {
                                 type: "family",
                                 data: {
-                                    name: "Kalpana Bafna*",
+                                    name: "Kalpana Bafna (Kalpu)*",
                                     spouse: "Vaibhav Bafna",
                                     image: "assets/images/vaibhav.jpg"
                                 },
