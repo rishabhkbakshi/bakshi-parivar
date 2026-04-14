@@ -123,7 +123,7 @@ const bakshiParivar = {
                 {
                   name: 'Pawan Kankariya (Charlie)*',
                   spouse: 'Rishika Kankariya',
-                  image: 'assets/images/pawan.jpg',
+                  image: 'assets/images/charlie.jpg',
                   children: []
                 }
               ]
