@@ -114,8 +114,18 @@ const bakshiParivar = {
               spouse: 'Pukhraj Kankariya',
               image: 'assets/images/kusum.jpg',
               children: [
-                { name: 'Virendra Kankariya', image: 'assets/images/viru.jpg' },
-                { name: 'Pawan Kankariya', image: 'assets/images/charli.jpg' }
+                {
+                  name: 'Virendra Kankariya (Viru)*',
+                  spouse: 'Preksha Kankariya',
+                  image: 'assets/images/viru.jpg',
+                  children: []
+                },
+                {
+                  name: 'Pawan Kankariya (Charlie)*',
+                  spouse: 'Rishika Kankariya',
+                  image: 'assets/images/pawan.jpg',
+                  children: []
+                }
               ]
             },
             {
