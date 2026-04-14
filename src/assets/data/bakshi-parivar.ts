@@ -212,7 +212,8 @@ const bakshiParivar = {
                   spouse: 'Rishabh Kothari',
                   image: 'assets/images/khushbu-nagaur.jpg',
                   children: [
-                    { name: 'Ritvi Kothari', image: 'assets/images/khushbu-nagaur-1.jpg' }
+                    { name: 'Ritvi Kothari', image: 'assets/images/khushbu-nagaur-1.jpg' },
+                    { name: 'Prishu Kothari', image: 'assets/images/khushbu-nagaur-2.jpg' }
                   ]
                 },
                 {
