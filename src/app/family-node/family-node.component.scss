@@ -44,3 +44,53 @@
         margin-top: 20px;
     }
 }
+
+.image-preview {
+    position: absolute;
+    z-index: 60;
+    pointer-events: none;
+
+    /* Default: place above the node and centered */
+    bottom: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%);
+
+    img {
+        /* Make image responsive to viewport so it never overflows */
+        max-width: min(520px, calc(100vw - 40px));
+        max-height: min(520px, calc(100vh - 40px));
+        width: auto;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 8px 28px rgba(0,0,0,0.25);
+        display: block;
+        transition: opacity 0.12s ease, transform 0.12s ease;
+        will-change: transform, opacity;
+    }
+
+    /* Modifier: show preview to the left of the node */
+    &.left {
+        top: 50%;
+        bottom: auto;
+        left: auto;
+        right: calc(100% + 12px);
+        transform: translateY(-50%);
+    }
+
+    /* Modifier: show preview to the right of the node */
+    &.right {
+        top: 50%;
+        bottom: auto;
+        left: calc(100% + 12px);
+        transform: translateY(-50%);
+    }
+
+    /* Small screens: hide previews to avoid layout issues */
+    @media (max-width: 600px) {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .image-preview { display: none; }
+}

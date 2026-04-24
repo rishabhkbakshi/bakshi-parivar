@@ -1,10 +1,14 @@
-<div class="node-wrapper">
-  <div class="node-card">
+<div class="node-wrapper" #nodeWrapper>
+  <div class="node-card" #nodeCard (mouseenter)="showPreview()" (mouseleave)="hidePreview()" (focus)="showPreview()" (blur)="hidePreview()" tabindex="0">
     <img [src]="member.image || '/assets/images/default.png'" alt="Default Avatar"
       class="node-image" width="150" height="120" />
     <div class="node-line"></div>
     <strong>{{ member.name }}</strong>
     <div *ngIf="member.spouse">&amp; {{ member.spouse }}</div>
+  </div>
+
+  <div class="image-preview" *ngIf="hovered" [ngClass]="previewPosition" [ngStyle]="previewStyles">
+    <img [src]="previewSrc" [alt]="member.name + ' preview'" />
   </div>
 
   <div class="children-line" *ngIf="member.children?.length">
